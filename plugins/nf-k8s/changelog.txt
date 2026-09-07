@@ -1,5 +1,9 @@
 nf-k8s changelog
 ===================
+1.2.3-hmf.3 - 7 Sep 2026
+- Retry K8s tasks on node disruption via DisruptionTarget pod condition
+- Surface K8s node disruption in Job mode
+
 1.2.2 - 21 Oct 2025
 - Add .command.log redirection in K8s container command (#6455) [e6eed7949]
 - Rename `config.schema` package to `config.spec` (#6485) [ef0d2d601]
